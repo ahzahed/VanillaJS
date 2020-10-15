@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container bg-warning border border-secondary p-5 rounded" style="margin-top: 200px">
+        <div class="row text-center">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <button type="button" data-id="std1" class="rollBtn btn btn-info btn-lg border border-secondary rounded">Roll 1</button>
+                <button type="button" data-id="std2" class="rollBtn btn btn-info btn-lg border border-secondary rounded">Roll 2</button>
+                <button type="button" data-id="std3" class="rollBtn btn btn-info btn-lg border border-secondary rounded">Roll 3</button>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <h3 class="showRoll">Roll 1</h3>
+            </div>
+        </div>
+
+        <div class="row text-center mt-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 infoPlace">
+                <button type="button" data-id="name" class="infoBtn btn btn-info btn-lg border border-secondary rounded">Student Name</button>
+                <button type="button" data-id="address"
+                    class="infoBtn btn btn-info btn-lg border border-secondary rounded">Address</button>
+                <button type="button" data-id="cgpa" class="infoBtn btn btn-info btn-lg border border-secondary rounded">CGPA</button>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h3 class="showInfo border border-secondary rounded p-2"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>

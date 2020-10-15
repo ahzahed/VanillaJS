@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: cornflowerblue;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.title{
+    text-align: center;
+}
+.title span{
+    color: white;
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.action .reset{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.action .reset:hover{
+    color: red;
+}
+
+.status{
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    padding: 3px 15px;
+    font-weight: bold;
+}
+
+.status span{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 15px;
+    background: black;
+}
+.grid-cell{
+    height: 100px;
+    width: 100px;
+    background: cornflowerblue;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x::after{
+    content: 'x';
+    font-size: 100px;
+}
+.o::after{
+    content: 'o';
+    font-size: 100px;
+    color: white;
+}
+.won::after{
+    color: red;
+}

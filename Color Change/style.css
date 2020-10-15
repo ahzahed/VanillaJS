@@ -1,0 +1,65 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background: white;
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   background: grey;
+   padding: 25px;
+}
+.nav a{
+   text-decoration: none;
+   color: White;
+   font-size: 18px;
+   font-weight: bold;
+}
+.nav .brand a{
+   font-size: 25px;
+}
+.nav a:hover{
+   color: hotpink;
+  
+   transition: 3s ease-out;
+}
+
+.clickBtn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+}
+
+.clickBtn p{
+   background: black;
+   color: white;
+   padding: 30px;
+   margin-bottom: 9px;
+   border-radius: 25px;
+   font-size: 35px;
+   font-weight: bold;
+}
+
+.text{
+   color: red;
+}
+
+.btn{
+   padding: 10px;
+   background: transparent;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 20px;
+   cursor: pointer;
+   display: grid;
+   margin: 0 auto;
+}
+.btn:hover{
+   background: darkcyan;
+   transition: 1s ease-in;
+   color: white;
+   
+}
